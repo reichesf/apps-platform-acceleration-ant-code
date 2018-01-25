@@ -21,7 +21,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.ivy.example</groupId>
-      <artifactId>list</artifactId>
+      <artifactId>size</artifactId>
       <version>${example.version}</version>
     </dependency>
     <dependency>
@@ -35,5 +35,13 @@
       <version>1.0</version>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
